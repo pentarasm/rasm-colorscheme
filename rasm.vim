@@ -1,4 +1,5 @@
-" Vim colorscheme created by Pentarasm - september 2022 
+"Date 7-12-2022
+"rasm_dark colorscheme created by Pentarasm
 
 set bg=light
 
@@ -7,9 +8,9 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let colors_name = "rasm"
+let colors_name = "rasm_dark"
 
-hi Normal         guifg=#000000 guibg=#c8d0ce gui=none ctermfg=black    ctermbg=grey     cterm=none
+hi Normal         guifg=#000000 guibg=#9fada9 gui=none ctermfg=black    ctermbg=grey     cterm=none
 
 hi ErrorMsg       guifg=#ff0000 guibg=bg      gui=none ctermfg=red      ctermbg=bg       cterm=none
 hi Visual         guifg=fg      guibg=cyan gui=none ctermfg=bg       ctermbg=darkcyan cterm=none
@@ -24,7 +25,7 @@ hi Directory      guifg=#000088 guibg=bg      gui=none ctermfg=blue     ctermbg=
 hi WarningMsg     guifg=#ff0000 guibg=bg      gui=none ctermfg=red      ctermbg=bg       cterm=none
 hi WildMenu       guifg=fg      guibg=#ffff00 gui=none ctermfg=bg       ctermbg=brown    cterm=none
 hi ModeMsg        guifg=fg      guibg=bg      gui=none ctermfg=fg       ctermbg=bg       cterm=none
-hi Title          guifg=#000088 guibg=#cccccc gui=none ctermfg=fg       ctermbg=bg       cterm=none
+hi Title          guifg=#000088 guibg=bg gui=none ctermfg=fg       ctermbg=bg       cterm=none
 hi MoreMsg        guifg=#000088 guibg=bg      gui=none ctermfg=fg       ctermbg=bg       cterm=none
 hi Question       guifg=#000088 guibg=bg      gui=none ctermfg=fg       ctermbg=bg       cterm=none
 hi NonText        guifg=#444444 guibg=bg      gui=none ctermfg=fg       ctermbg=bg       cterm=none
@@ -36,7 +37,7 @@ hi VertSplit      guifg=#dddddd guibg=#333333 gui=none ctermfg=white    ctermbg=
 hi Folded         guifg=#005500 guibg=#999999 gui=none ctermfg=darkgreen ctermbg=darkgray cterm=none
 hi FoldColumn     guifg=#005500 guibg=#999999 gui=none ctermfg=darkgreen ctermbg=darkgray cterm=none
 hi SignColumn     guifg=#005500 guibg=#999999 gui=none ctermfg=darkgreen ctermbg=darkgray cterm=none
-hi LineNr         guifg=#005500 guibg=#c8d0ce gui=none ctermfg=darkgreen ctermbg=darkgray cterm=none
+hi LineNr         guifg=#005500 guibg=bg gui=none ctermfg=darkgreen ctermbg=darkgray cterm=none
 
 "hi Folded         guifg=#dddddd guibg=#666666 gui=none ctermfg=darkmagenta ctermbg=bg cterm=none
 "hi FoldColumn     guifg=#dddddd guibg=#666666 gui=none ctermfg=darkmagenta ctermbg=bg cterm=none
